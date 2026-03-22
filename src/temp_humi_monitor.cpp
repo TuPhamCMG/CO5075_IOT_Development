@@ -18,8 +18,6 @@ void temp_humi_monitor(void *pvParameters){
         // Reading humidity
         float humidity = dht20.getHumidity();
 
-        
-
         // Check if any reads failed and exit early
         if (isnan(temperature) || isnan(humidity)) {
             Serial.println("Failed to read from DHT sensor!");

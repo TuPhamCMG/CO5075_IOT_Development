@@ -51,7 +51,6 @@ void tiny_ml_task(void *pvParameters)
 
     while (1)
     {
-
         // Prepare input data (e.g., sensor readings)
         // For a simple example, let's assume a single float input
         input->data.f[0] = glob_temperature;

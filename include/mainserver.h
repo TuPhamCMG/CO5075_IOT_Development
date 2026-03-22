@@ -2,7 +2,6 @@
 #define ___MAIN_SERVER__
 #include <Arduino.h>
 #include <WiFi.h>
-#include <WebServer.h>
 #include "global.h"
 
 #define LED1_PIN 48
@@ -18,7 +17,7 @@
 String mainPage();
 String settingsPage();
 
-void startAP();
+void startMainAP();
 void setupServer();
 void connectToWiFi();
 
